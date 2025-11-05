@@ -179,3 +179,6 @@ writable/
 - PHP CS Fixer configured with Symfony ruleset
 - Risky rules enabled
 - Cache file: `var/.php-cs-fixer.cache`
+
+### Git Usage
+- IMPORTANT rules: @context/git_rules.md

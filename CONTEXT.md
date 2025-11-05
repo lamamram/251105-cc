@@ -92,7 +92,8 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
             "Bash(npm run lint)",
             "Bash(npm run test:*)",
             "Read(~/.bashrc)",
-            "Bash(git add:*)"
+            "Bash(git add :*)",
+            "Bash(git commit -m :*)",
         ],
         "deny": [
             "Bash(curl:*)",
@@ -103,3 +104,11 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
     }
 }
 ```
+
+### éclater le contexte global en plusieurs fichiers
+
+* si le contexte global est trop grand, on peut le diviser en plusieurs fichiers
+
+* [ici](https://docs.claude.com/fr/docs/claude-code/memory)
+
+### hooks claude

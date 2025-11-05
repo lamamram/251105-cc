@@ -69,6 +69,7 @@
             float: left;
             height: 44px;
             padding: .4rem .5rem;
+            background-color: blue;
         }
         header .menu-toggle {
             display: none;

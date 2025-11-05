@@ -1,0 +1,2 @@
+- main current: main
+- IMPORTANT execute `git add . && git commit -m "your message"` if files are modified or created after claude code finish action
