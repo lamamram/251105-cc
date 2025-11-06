@@ -97,4 +97,9 @@
 
 * dans le dossier `.claude/commands/` du projet ou `~/.claude/commands/` de l'utilisateur
 * la description est faire en markdown et préfixé par des entêtes YAML
-* exemple création programmatique d'un commit
+* exemple création programmatique d'un commit :@.claude/commands/commit.md
+* example de commande TDD : @.claude/commands/tdd.md pilotée par un plan : @plan.yml
+
+> $AGUMENTS représente la chaine de cartactère des arguments passés à la commande slash
+
+> {arg1} , ..., {argN} représentent les arguments extraits de $ARGUMENTS et utilisables dans le prompt
