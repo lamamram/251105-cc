@@ -79,36 +79,9 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
   * `/clear`: pour effacer le contexte de la session mais rester dans la session
   * `/compact`: pour compacter le contexte en un résumé plus court
 
-
-### configurer les permissions
-
-* dans le fichier ~/.claude/settings.json
-* allow : bypass les permissions pour les commandes listées
-* deny : interdit l'accès aux commandes listées
-```json
-{
-    "permissions": {
-        "allow": [
-            "Bash(npm run lint)",
-            "Bash(npm run test:*)",
-            "Read(~/.bashrc)",
-            "Bash(git add :*)",
-            "Bash(git commit -m :*)",
-        ],
-        "deny": [
-            "Bash(curl:*)",
-            "Read(./.env)",
-            "Read(./.env.*)",
-            "Read(./secrets/**)"
-        ]
-    }
-}
-```
-
 ### éclater le contexte global en plusieurs fichiers
 
 * si le contexte global est trop grand, on peut le diviser en plusieurs fichiers
 
 * [ici](https://docs.claude.com/fr/docs/claude-code/memory)
 
-### hooks claude

@@ -41,6 +41,9 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
  * This process sets up the path constants, loads and registers
  * our autoloader, along with Composer's, loads our constants
  * and fires up an environment-specific bootstrapping.
+ *
+ * Note: For PHP opcache preloading, see @preload.php in the project root.
+ *       Configure opcache.preload in php.ini to use it.
  */
 
 // LOAD OUR PATHS CONFIG FILE

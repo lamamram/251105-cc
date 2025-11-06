@@ -104,3 +104,4 @@ class preload
 }
 
 (new preload())->load();
+// End of file preload.php

@@ -5,7 +5,7 @@
       "Bash(npm run test:*)",
       "Read(~/.bashrc)",
       "Bash(git add:*)",
-      "Bash(git commit -m :*)"
+      "Bash(git commit -m:*)"
     ],
     "deny": [
       "Bash(curl:*)",
