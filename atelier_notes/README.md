@@ -3,7 +3,9 @@
  * assitant de programmation IA local basé sur Claude 4 de Anthropic
  * sous forme d'une CLI (command line interface)
 
-## conditons d'utilisation
+![witdth: 600](./cc-schema.png)
+
+## conditions d'utilisation
 
 ### licence courante Max x5
 
