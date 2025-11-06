@@ -38,6 +38,9 @@
 * `IMPORTANT:` => met en avant les points importants
 * `NEVER` => interdit certaines actions
 
+## mode bash: préfixer le prompt avec `!`:
+* permet d'exécuter des commandes bash directement
+* réponse longue => `ctrl + o`
 
 ## mode planificateur
 

@@ -13,5 +13,17 @@
       "Read(./.env.*)",
       "Read(./secrets/**)"
     ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "vlc -Idummy bell.mp3"
+          }
+        ]
+      }
+    ]
   }
 }

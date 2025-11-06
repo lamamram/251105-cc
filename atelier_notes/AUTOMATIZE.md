@@ -79,3 +79,16 @@
 ## hooks claude
 
 * [ici](https://docs.claude.com/fr/docs/claude-code/hooks-guide)
+
+* si un hook `PreToolUSe` et `PostToolUse` avec un tool paramétré: `Write(./path/to/file)`
+  + le **contexte du tool** dans le hook est accessible via un objet Json parsable
+  + `jq -r '.tool_input.file_path'` =>
+  ```json
+  {
+      ...
+      "tool_input": {
+          "file_path": "./path/to/file",
+          ...
+      }
+  }
+  ``` 

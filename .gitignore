@@ -135,3 +135,4 @@ nb-configuration.xml
 # /php_ci/.php-cs-fixer.dist.php
 /php_ci/var/.php-cs-fixer.cache
 geckodriver*
+*.local.*
