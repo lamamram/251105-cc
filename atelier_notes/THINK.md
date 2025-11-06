@@ -36,11 +36,13 @@
 ## mot clés dans le prompt
 
 * `IMPORTANT:` => met en avant les points importants
-* `NEVER` => interdit certaines actions
+* `NEVER | DO NOT` => interdit certaines actions
+* `be brief.`
 
 ## mode bash: préfixer le prompt avec `!`:
 * permet d'exécuter des commandes bash directement
 * réponse longue => `ctrl + o`
+> REM: cc aurait un pb à charger la totalité du `.bashrc`
 
 ## mode planificateur
 

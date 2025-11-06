@@ -91,4 +91,10 @@
           ...
       }
   }
-  ``` 
+  ```
+
+## commandes "slash" personnalisées
+
+* dans le dossier `.claude/commands/` du projet ou `~/.claude/commands/` de l'utilisateur
+* la description est faire en markdown et préfixé par des entêtes YAML
+* exemple création programmatique d'un commit

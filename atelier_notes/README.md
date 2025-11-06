@@ -63,6 +63,7 @@ Max 5x ($100/month)
 * END
 
 * option: ajouter l'extension Claude Code à VS Code pour une meilleure intégration
+* ou `/ide vscode` dans Claude Code
 
 > REM: comparatif des coûts entre Claude API et OpenAI API: https://docs.claude.com/en/docs/claude-vs-openai-pricing
 > REM:  //                                      Copilot: dépôts github privés + copilot => 14$/mois 12€/mois
