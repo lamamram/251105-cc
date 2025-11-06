@@ -76,6 +76,10 @@
   + ou `shift+tab` 2x dans le prompt
 * `claude --permission-mode=bypassPermissions`: aucune confirmation d'exécution de commande bash **(danger !)**
 
+
+## mémoriser un élement de contexte depuis le prompt `#`
+
+
 ## hooks claude
 
 * [ici](https://docs.claude.com/fr/docs/claude-code/hooks-guide)

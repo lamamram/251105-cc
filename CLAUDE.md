@@ -178,3 +178,4 @@ writable/
 
 ### Git Usage
 - IMPORTANT rules: @context/git_rules.md
+- IMPORTANT: executer /commit quand au moins un fichier a été modifié à la fin de la réponse
