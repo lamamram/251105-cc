@@ -99,6 +99,8 @@
 
 ## commandes "slash" personnalisées
 
+* documentation officielle : [ici](https://code.claude.com/docs/en/slash-commands)
+
 * dans le dossier `.claude/commands/` du projet ou `~/.claude/commands/` de l'utilisateur
 * la description est faire en markdown et préfixé par des entêtes YAML
 * exemple création programmatique d'un commit :@.claude/commands/commit.md
