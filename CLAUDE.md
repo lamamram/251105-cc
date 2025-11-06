@@ -98,10 +98,6 @@ The application follows a Client-Account banking model:
 
 ### Database Migrations
 Migrations are located in `app/Database/Migrations/`:
-- `2025-05-02-125210-Clients.php` - Creates clients table
-- `2025-05-04-173828_Accounts.php` - Creates accounts table
-- `2025-05-07-082208_TestClients.php` - Creates test_clients table
-- `2025-05-07-082521_TestAccounts.php` - Creates test_accounts table
 
 ### Routing Structure
 Routes are defined in `app/Config/Routes.php`:

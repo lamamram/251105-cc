@@ -1,38 +1,4 @@
-### configurer les permissions
-
-* dans le fichier ~/.claude/settings.json => utilisateur
-* ou ./.claude/settings.json => projet spécifique
-* allow : bypass les permissions pour les commandes listées
-* deny : interdit l'accès aux commandes listées
-```json
-{
-    "permissions": {
-        "allow": [
-            "Bash(npm run lint)",
-            "Bash(npm run test:*)",
-            "Read(~/.bashrc)",
-            "Bash(git add:*)",
-            "Bash(git commit -m:*)"
-        ],
-        "deny": [
-            "Bash(curl:*)",
-            "Read(./.env)",
-            "Read(./.env.*)",
-            "Read(./secrets/**)"
-        ]
-    }
-}
-```
-
-![alt text](permissions.png)
-
-* pour aller plus loin : [ici](https://www.petefreitag.com/blog/claude-code-permissions/)
-
-### hooks claude
-
-* [ici](https://docs.claude.com/fr/docs/claude-code/hooks-guide)
-
-### outils natifs de Claude Code
+## outils natifs de Claude Code
 
 * **File Operations**
 
@@ -73,3 +39,43 @@
 
   - SlashCommand - Execute custom slash commands from .claude/commands/
   - Skill - Execute specialized skills
+
+## configurer les permissions
+
+* dans le fichier `~/.claude/settings.json` => utilisateur
+* ou `./.claude/settings.json` => projet spécifique
+* **allow** : bypass les permissions pour les commandes listées
+* **deny** : interdit l'accès aux commandes listées
+```json
+{
+    "permissions": {
+        "allow": [
+            "Bash(npm run lint)",
+            "Bash(npm run test:*)",
+            "Read(~/.bashrc)",
+            "Bash(git add:*)",
+            "Bash(git commit -m:*)"
+        ],
+        "deny": [
+            "Bash(curl:*)",
+            "Read(./.env)",
+            "Read(./.env.*)",
+            "Read(./secrets/**)"
+        ]
+    }
+}
+```
+
+![alt text](permissions.png)
+
+* pour aller plus loin : [ici](https://www.petefreitag.com/blog/claude-code-permissions/)
+
+### modes de permission globale
+
+* `claude --permission-mode=acceptEdits`: aucune confirmation d'édition = création/modification de fichiers
+  + ou `shift+tab` 2x dans le prompt
+* `claude --permission-mode=bypassPermissions`: aucune confirmation d'exécution de commande bash **(danger !)**
+
+## hooks claude
+
+* [ici](https://docs.claude.com/fr/docs/claude-code/hooks-guide)

@@ -1,5 +1,8 @@
 # Claude Code
 
+ * assitant de programmation IA local basé sur Claude 4 de Anthropic
+ * sous forme d'une CLI (command line interface)
+
 ## conditons d'utilisation
 
 ### licence courante Max x5

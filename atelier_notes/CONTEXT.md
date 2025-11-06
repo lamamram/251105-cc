@@ -5,8 +5,6 @@
 * exécuter `/init`
 
 > pour créer le fichier CLAUDE.md dans le répertoire courant
-> cc utilise un protocole "chaîne de pensée" : structure des exécutions en étapes logiques
-> utiisant les outils natifs de cc (Read, Search, Bash)
 
 * résumé de ce qu'il a fait:
 
@@ -33,8 +31,9 @@ Key sections:
 * le fichier CLAUDE.md est chargé en mémoire par cc quand on intéragit avec le prompt
 * permet de lui permettre la structure/volume du projet pour préciser/cadrer les suggestions
 
-> REM: ce contexte global doit être fourni mais pas trop fourni !!
-> REM2: on peut également un fichier de contexte local ~/CLAUDE.local.md dûment gitignoré
+> REM: ce contexte global doit être fourni mais pas trop fourni !! il faut contrôler la taille/pertinence des infos fournies
+
+> REM2: on peut également un fichier de contexte local **~/CLAUDE.local.md** dûment gitignoré
 
 ## mesurer l'usage de Claude Code
 
@@ -53,7 +52,7 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
 
 * intégration dans la statusline
 
-* créer ou modifier le fichier ~/.claude/settings.json
+* créer ou modifier le fichier `~/.claude/settings.json`
 
 ```json
 {
@@ -65,13 +64,13 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
 }
 ```
 
-## empoisement du contexte 
+## empoisonnement du contexte 
 
 1. 1ère étape: modification css à partir d'un fichier
 2. mise à jour contexte global CLAUDE.md
 3. changer de sujet:
-  * cc met mémoire le contexte global et les contextes des requêtes précédentes
-  * si le contexte est trop grand, cc peut perdre le fil des informations prinicipales pour traiter la nouvelle demande
+  * **cc** met en mémoire le contexte global et les contextes des requêtes précédentes
+  * si le contexte est trop grand, cc peut **perdre le fil** des informations prinicipales pour traiter la nouvelle demande
   * on doit couper le contexte
 
 4. solutions 
@@ -79,9 +78,19 @@ npx ccusage@latest [options = [daily] | weekly | monthly | ...]
   * `/clear`: pour effacer le contexte de la session mais rester dans la session
   * `/compact`: pour compacter le contexte en un résumé plus court
 
+## réciproquement reprendre le contrexte
+
+1. dans la session courante
+  * `ctrl + r`: comme avec un terminal linux: pour sélectionner un prompt/contexte précédent
+
+2. en dehors de la session courante: après `/exit`
+  * `claude --continue`
+
+  
+
 ### éclater le contexte global en plusieurs fichiers
 
-* si le contexte global est trop grand, on peut le diviser en plusieurs fichiers
-
+* si le contexte global CLAUDE.md est trop grand, on peut le diviser en plusieurs fichiers
+* en utilisant `@paht/to/file.md`
 * [ici](https://docs.claude.com/fr/docs/claude-code/memory)
 
