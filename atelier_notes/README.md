@@ -71,3 +71,11 @@ Max 5x ($100/month)
 > REM:  //                                      Copilot: dépôts github privés + copilot => 14$/mois 12€/mois
 > REM:  //            utilisation des données   Copilot: ===> chez Microsoft != pas de données d'entreprise !!! != Antropic moins intrusif
 
+
+## docs
+
+* chaines youtube:
+   - melvynx (FR)
+   - net ninja (EN trduit en FR)
+  
+

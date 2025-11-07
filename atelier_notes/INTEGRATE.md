@@ -1,4 +1,4 @@
-## configuer des conteneur de mcp depuis Docker
+## configurer des conteneur de mcp depuis Docker
 
 * MCP hub: [ici](https://hub.docker.com/mcp/explore)
 
@@ -17,3 +17,7 @@
   + coportement curieux (lance trop de conteneurs en --rm non supprimés)
 
 4. relancer claude et voir les /MCP_DOCKER et les nouveaux outils dans /mcp
+
+## configurer claude code avec github Actions => CICD de github
+
+* doc: [ici](https://code.claude.com/docs/en/github-actions)
