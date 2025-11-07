@@ -13,6 +13,7 @@
 3. configurer le conteneur
   + ici mcp SQLITE (archived)
   + [doc](https://hub.docker.com/mcp/server/SQLite/overview)
-  + coportement cuireux (lance trop de conteneurs en --rm non supprimés)
+  + la conf json est située dans le fichier global `~/.claude.json`
+  + coportement curieux (lance trop de conteneurs en --rm non supprimés)
 
 4. relancer claude et voir les /MCP_DOCKER et les nouveaux outils dans /mcp
