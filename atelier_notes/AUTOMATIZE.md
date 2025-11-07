@@ -77,10 +77,13 @@
 * `claude --permission-mode=bypassPermissions`: aucune confirmation d'exécution de commande bash **(danger !)**
 
 
-## mémoriser un élement de contexte depuis le prompt `#`
+## mémoriser un élement de contexte depuis le prompt 
+* `# <prompt>`: ajouter le prompt à la fin de `CLAUDE.md` global ou local 
 
 
 ## hooks claude
+
+![alt](./cc-hooks.png)
 
 * [ici](https://docs.claude.com/fr/docs/claude-code/hooks-guide)
 

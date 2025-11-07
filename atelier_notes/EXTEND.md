@@ -5,6 +5,10 @@
   + permet d'enrichir le panel d'outils disponibles pour un Haiku / Sonnet / Opus
   + permet de faire communiquer cc avec des services externes (ex: postgresql, elasticsearch, github, gitlab)
 
+
+![alt](./cc-mcp.png)
+
+
 ### exemples d'outils MCP: context7: 
 
 > BUT: gestion de la documentation des outils projets pour analyse de conformité et/ou correction
