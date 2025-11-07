@@ -6,41 +6,6 @@
   execute the implementations of the todo
   execute the test
 
-# ".": structure non lue
-# .default_feature:
-#   name: feature_name_placeholder
-#   description: feature_description_placeholder
-#   checked: false
-#   test:
-#     scope: {}
-#     examples: []
-#     fixture_files: false
-#     asserts: []
-#   todo:
-#     preparations: |
-#       todo_preparations_placeholder
-#     implementations: |
-#       todo_implementations_placeholder
-#     plan: *default_plan
-
-# .examples: &examples
-#   - php
-#   - python
-#   - java
-
-# # context
-# context:
-#   - script language: python
-#   - indentation: 2 spaces
-#   - test library: pytest
-#   - venv: .\v_env
-#   - fixtures: .\fixtures
-#   - tests: .\tests
-#   - issues: .\var\issues
-#   - issue_template: .gitlab/issue_templates/enhancement.md
-#   - issue_generator: .\generate_issue_from_plan.py
-#   - gitlab_workflow: .\gtilab_workflow.py
-
 # task
 feature:
   name: feature_name_placeholder
