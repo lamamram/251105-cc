@@ -1,6 +1,7 @@
 ---
 description: Create a UI Component in /components/ui
 argument-hint: Component name | Component summary
+allowed-tools: Read(*)
 ---
 
 ## Context
@@ -39,3 +40,7 @@ Make a UI commponent according to the [name] and [summary] provided, following t
 ## Preview
 
 - DO NOT add the component to any page yet
+
+## review config
+
+- IMPORTANT invoke the ui-ux-playwright-reviewer agent via the Task tool to review the component after implementation
